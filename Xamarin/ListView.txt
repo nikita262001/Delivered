@@ -1,0 +1,5 @@
+ListView list = new ListView
+{
+    RowHeight = Device.RuntimePlatform == Device.Android ? 110 : Device.RuntimePlatform == Device.UWP ? 140 : 160,
+    SelectionMode = ListViewSelectionMode.None
+};

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticWork4(Volkov)", "PracticWork4(Volkov)\PracticWork4(Volkov).csproj", "{6B60CF75-5169-4F5C-94EE-CE5EAB176E56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckWork", "CheckWork\CheckWork.csproj", "{9F7C9189-D6CE-4618-A131-15D1F2EC9772}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B60CF75-5169-4F5C-94EE-CE5EAB176E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B60CF75-5169-4F5C-94EE-CE5EAB176E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B60CF75-5169-4F5C-94EE-CE5EAB176E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B60CF75-5169-4F5C-94EE-CE5EAB176E56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F7C9189-D6CE-4618-A131-15D1F2EC9772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F7C9189-D6CE-4618-A131-15D1F2EC9772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F7C9189-D6CE-4618-A131-15D1F2EC9772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F7C9189-D6CE-4618-A131-15D1F2EC9772}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A31671CE-8E5B-45E4-AE6B-59960A13E3A2}
+	EndGlobalSection
+EndGlobal

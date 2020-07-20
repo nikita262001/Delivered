@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Prakt6Flex.MainPage">
+
+    <ScrollView>
+        <FlexLayout Wrap="Wrap"  BackgroundColor="Aqua" >
+
+            <Grid BackgroundColor="White"  HeightRequest="400" Padding="5" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="20" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="4*" />
+                </Grid.ColumnDefinitions>
+
+                <AbsoluteLayout Grid.RowSpan="8">
+                    <Label Text="Понедельник" FontSize="20" Rotation="-90" AbsoluteLayout.LayoutBounds="0.3,0.4" AbsoluteLayout.LayoutFlags="XProportional,YProportional" WidthRequest="150"/>
+                </AbsoluteLayout>
+                <Label Text="№" Grid.Row="0" Grid.Column="1"/>
+                <Label Text="Название урока" Grid.Row="0" Grid.Column="2"/>
+                <Label Text="Домашнее задание" Grid.Row="0" Grid.Column="3"/>
+
+                <Label Text="1" Grid.Row="1" Grid.Column="1"/>
+                <Label Text="Технология" Grid.Row="1" Grid.Column="2"/>
+                <Label Text="Обработка нижнего срезапотайными стежками." Grid.Row="1" Grid.Column="3"/>
+
+                <Label Text="2" Grid.Row="2" Grid.Column="1"/>
+                <Label Text="Технология" Grid.Row="2" Grid.Column="2"/>
+                <Label Text="" Grid.Row="2" Grid.Column="3"/>
+
+                <Label Text="3" Grid.Row="3" Grid.Column="1"/>
+                <Label Text="Математика" Grid.Row="3" Grid.Column="2"/>
+                <Label Text="Масштаб/п23 №841" Grid.Row="3" Grid.Column="3"/>
+
+                <Label Text="4" Grid.Row="4" Grid.Column="1"/>
+                <Label Text="Литература" Grid.Row="4" Grid.Column="2"/>
+                <Label Text="''Хамелион''" Grid.Row="4" Grid.Column="3"/>
+
+                <Label Text="5" Grid.Row="5" Grid.Column="1"/>
+                <Label Text="Русский язык" Grid.Row="5" Grid.Column="2"/>
+                <Label Text="Диктант ''Имя прилаг.''" Grid.Row="5" Grid.Column="3"/>
+
+                <Label Text="6" Grid.Row="6" Grid.Column="1"/>
+                <Label Text="" Grid.Row="6" Grid.Column="2"/>
+                <Label Text="" Grid.Row="6" Grid.Column="3"/>
+
+                <Label Text="7" Grid.Row="7" Grid.Column="1"/>
+                <Label Text="" Grid.Row="7" Grid.Column="2"/>
+                <Label Text="" Grid.Row="7" Grid.Column="3"/>
+            </Grid>
+
+            <Grid BackgroundColor="White" HeightRequest="400" Padding="5" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="20" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="4*" />
+                </Grid.ColumnDefinitions>
+
+                <AbsoluteLayout Grid.RowSpan="8">
+                    <Label Text="Вторник" FontSize="20" Rotation="-90" AbsoluteLayout.LayoutBounds="0.3,0.4" AbsoluteLayout.LayoutFlags="XProportional,YProportional" WidthRequest="150"/>
+                </AbsoluteLayout>
+                <Label Text="№" Grid.Row="0" Grid.Column="1"/>
+                <Label Text="Название урока" Grid.Row="0" Grid.Column="2"/>
+                <Label Text="Домашнее задание" Grid.Row="0" Grid.Column="3"/>
+
+                <Label Text="1" Grid.Row="1" Grid.Column="1"/>
+                <Label Text="Информатика" Grid.Row="1" Grid.Column="2"/>
+                <Label Text="Составление программ" Grid.Row="1" Grid.Column="3"/>
+
+                <Label Text="2" Grid.Row="2" Grid.Column="1"/>
+                <Label Text="Английский" Grid.Row="2" Grid.Column="2"/>
+                <Label Text="Презентация ''Моя школа''" Grid.Row="2" Grid.Column="3"/>
+
+                <Label Text="3" Grid.Row="3" Grid.Column="1"/>
+                <Label Text="История" Grid.Row="3" Grid.Column="2"/>
+                <Label Text="Культура раннего Возрождения в Италии" Grid.Row="3" Grid.Column="3"/>
+
+                <Label Text="4" Grid.Row="4" Grid.Column="1"/>
+                <Label Text="Литература" Grid.Row="4" Grid.Column="2"/>
+                <Label Text="Внеклассное чтение ''Толстый и тонкий''" Grid.Row="4" Grid.Column="3"/>
+
+                <Label Text="5" Grid.Row="5" Grid.Column="1"/>
+                <Label Text="Русский язык" Grid.Row="5" Grid.Column="2"/>
+                <Label Text="Анализ к/д" Grid.Row="5" Grid.Column="3"/>
+
+                <Label Text="6" Grid.Row="6" Grid.Column="1"/>
+                <Label Text="" Grid.Row="6" Grid.Column="2"/>
+                <Label Text="" Grid.Row="6" Grid.Column="3"/>
+
+                <Label Text="7" Grid.Row="7" Grid.Column="1"/>
+                <Label Text="" Grid.Row="7" Grid.Column="2"/>
+                <Label Text="" Grid.Row="7" Grid.Column="3"/>
+            </Grid>
+
+            <Grid BackgroundColor="White" HeightRequest="400" Padding="5" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="20" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="4*" />
+                </Grid.ColumnDefinitions>
+
+                <AbsoluteLayout Grid.RowSpan="8">
+                    <Label Text="Среда" FontSize="20" Rotation="-90" AbsoluteLayout.LayoutBounds="0.3,0.4" AbsoluteLayout.LayoutFlags="XProportional,YProportional" WidthRequest="150"/>
+                </AbsoluteLayout>
+                <Label Text="№" Grid.Row="0" Grid.Column="1"/>
+                <Label Text="Название урока" Grid.Row="0" Grid.Column="2"/>
+                <Label Text="Домашнее задание" Grid.Row="0" Grid.Column="3"/>
+
+                <Label Text="1" Grid.Row="1" Grid.Column="1"/>
+                <Label Text="ИЗО" Grid.Row="1" Grid.Column="2"/>
+                <Label Text="Отношения человека к миру вещей" Grid.Row="1" Grid.Column="3"/>
+
+                <Label Text="2" Grid.Row="2" Grid.Column="1"/>
+                <Label Text="Обществознание" Grid.Row="2" Grid.Column="2"/>
+                <Label Text="Способности человека" Grid.Row="2" Grid.Column="3"/>
+
+                <Label Text="3" Grid.Row="3" Grid.Column="1"/>
+                <Label Text="Математика" Grid.Row="3" Grid.Column="2"/>
+                <Label Text="Длина окружности и площадь" Grid.Row="3" Grid.Column="3"/>
+
+                <Label Text="4" Grid.Row="4" Grid.Column="1"/>
+                <Label Text="Русский язык" Grid.Row="4" Grid.Column="2"/>
+                <Label Text="Числительные" Grid.Row="4" Grid.Column="3"/>
+
+                <Label Text="5" Grid.Row="5" Grid.Column="1"/>
+                <Label Text="Русский язык" Grid.Row="5" Grid.Column="2"/>
+                <Label Text="Простые и составные числительные" Grid.Row="5" Grid.Column="3"/>
+
+                <Label Text="6" Grid.Row="6" Grid.Column="1"/>
+                <Label Text="" Grid.Row="6" Grid.Column="2"/>
+                <Label Text="" Grid.Row="6" Grid.Column="3"/>
+
+                <Label Text="7" Grid.Row="7" Grid.Column="1"/>
+                <Label Text="" Grid.Row="7" Grid.Column="2"/>
+                <Label Text="" Grid.Row="7" Grid.Column="3"/>
+            </Grid>
+
+            <Grid BackgroundColor="White" HeightRequest="400" Padding="5" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="20" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="4*" />
+                </Grid.ColumnDefinitions>
+
+                <AbsoluteLayout Grid.RowSpan="8">
+                    <Label Text="Четверг" FontSize="20" Rotation="-90" AbsoluteLayout.LayoutBounds="0.3,0.4" AbsoluteLayout.LayoutFlags="XProportional,YProportional" WidthRequest="150"/>
+                </AbsoluteLayout>
+                <Label Text="№" Grid.Row="0" Grid.Column="1"/>
+                <Label Text="Название урока" Grid.Row="0" Grid.Column="2"/>
+                <Label Text="Домашнее задание" Grid.Row="0" Grid.Column="3"/>
+
+                <Label Text="1" Grid.Row="1" Grid.Column="1"/>
+                <Label Text="Английский" Grid.Row="1" Grid.Column="2"/>
+                <Label Text="Что ты сейчас делаешь?" Grid.Row="1" Grid.Column="3"/>
+
+                <Label Text="2" Grid.Row="2" Grid.Column="1"/>
+                <Label Text="История" Grid.Row="2" Grid.Column="2"/>
+                <Label Text="Научные открытия и изобретения" Grid.Row="2" Grid.Column="3"/>
+
+                <Label Text="3" Grid.Row="3" Grid.Column="1"/>
+                <Label Text="Русский язык" Grid.Row="3" Grid.Column="2"/>
+                <Label Text="Ъ на конце и в середине числительных" Grid.Row="3" Grid.Column="3"/>
+
+                <Label Text="4" Grid.Row="4" Grid.Column="1"/>
+                <Label Text="" Grid.Row="4" Grid.Column="2"/>
+                <Label Text="" Grid.Row="4" Grid.Column="3"/>
+
+                <Label Text="5" Grid.Row="5" Grid.Column="1"/>
+                <Label Text="" Grid.Row="5" Grid.Column="2"/>
+                <Label Text="" Grid.Row="5" Grid.Column="3"/>
+
+                <Label Text="6" Grid.Row="6" Grid.Column="1"/>
+                <Label Text="" Grid.Row="6" Grid.Column="2"/>
+                <Label Text="" Grid.Row="6" Grid.Column="3"/>
+
+                <Label Text="7" Grid.Row="7" Grid.Column="1"/>
+                <Label Text="" Grid.Row="7" Grid.Column="2"/>
+                <Label Text="" Grid.Row="7" Grid.Column="3"/>
+            </Grid>
+
+            <Grid BackgroundColor="White" HeightRequest="400" Padding="5" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="20" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="4*" />
+                </Grid.ColumnDefinitions>
+
+                <AbsoluteLayout Grid.RowSpan="8">
+                    <Label Text="Пятница" FontSize="20" Rotation="-90" AbsoluteLayout.LayoutBounds="0.3,0.4" AbsoluteLayout.LayoutFlags="XProportional,YProportional" WidthRequest="150"/>
+                </AbsoluteLayout>
+                <Label Text="№" Grid.Row="0" Grid.Column="1"/>
+                <Label Text="Название урока" Grid.Row="0" Grid.Column="2"/>
+                <Label Text="Домашнее задание" Grid.Row="0" Grid.Column="3"/>
+
+                <Label Text="1" Grid.Row="1" Grid.Column="1"/>
+                <Label Text="Английский" Grid.Row="1" Grid.Column="2"/>
+                <Label Text="Что ты сейчас делаешь?" Grid.Row="1" Grid.Column="3"/>
+
+                <Label Text="2" Grid.Row="2" Grid.Column="1"/>
+                <Label Text="Математика" Grid.Row="2" Grid.Column="2"/>
+                <Label Text="Длина окружности и площадь круга" Grid.Row="2" Grid.Column="3"/>
+
+                <Label Text="3" Grid.Row="3" Grid.Column="1"/>
+                <Label Text="Русский язык" Grid.Row="3" Grid.Column="2"/>
+                <Label Text="Разряды количественных числительных" Grid.Row="3" Grid.Column="3"/>
+
+                <Label Text="4" Grid.Row="4" Grid.Column="1"/>
+                <Label Text="" Grid.Row="4" Grid.Column="2"/>
+                <Label Text="" Grid.Row="4" Grid.Column="3"/>
+
+                <Label Text="5" Grid.Row="5" Grid.Column="1"/>
+                <Label Text="" Grid.Row="5" Grid.Column="2"/>
+                <Label Text="" Grid.Row="5" Grid.Column="3"/>
+
+                <Label Text="6" Grid.Row="6" Grid.Column="1"/>
+                <Label Text="" Grid.Row="6" Grid.Column="2"/>
+                <Label Text="" Grid.Row="6" Grid.Column="3"/>
+
+                <Label Text="7" Grid.Row="7" Grid.Column="1"/>
+                <Label Text="" Grid.Row="7" Grid.Column="2"/>
+                <Label Text="" Grid.Row="7" Grid.Column="3"/>
+            </Grid>
+
+            <Grid BackgroundColor="White" HeightRequest="400" Padding="5" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="20" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="4*" />
+                </Grid.ColumnDefinitions>
+
+                <AbsoluteLayout Grid.RowSpan="8">
+                    <Label Text="Суббота" FontSize="20" Rotation="-90" AbsoluteLayout.LayoutBounds="0.3,0.4" AbsoluteLayout.LayoutFlags="XProportional,YProportional" WidthRequest="150"/>
+                </AbsoluteLayout>
+                <Label Text="№" Grid.Row="0" Grid.Column="1"/>
+                <Label Text="Название урока" Grid.Row="0" Grid.Column="2"/>
+                <Label Text="Домашнее задание" Grid.Row="0" Grid.Column="3"/>
+
+                <Label Text="1" Grid.Row="1" Grid.Column="1"/>
+                <Label Text="Математика" Grid.Row="1" Grid.Column="2"/>
+                <Label Text="Шар" Grid.Row="1" Grid.Column="3"/>
+
+                <Label Text="2" Grid.Row="2" Grid.Column="1"/>
+                <Label Text="Музыка" Grid.Row="2" Grid.Column="2"/>
+                <Label Text="Стравинский И.Ф.Сюита №2 для оркестра" Grid.Row="2" Grid.Column="3"/>
+
+                <Label Text="3" Grid.Row="3" Grid.Column="1"/>
+                <Label Text="" Grid.Row="3" Grid.Column="2"/>
+                <Label Text="" Grid.Row="3" Grid.Column="3"/>
+
+                <Label Text="4" Grid.Row="4" Grid.Column="1"/>
+                <Label Text="" Grid.Row="4" Grid.Column="2"/>
+                <Label Text="" Grid.Row="4" Grid.Column="3"/>
+
+                <Label Text="5" Grid.Row="5" Grid.Column="1"/>
+                <Label Text="" Grid.Row="5" Grid.Column="2"/>
+                <Label Text="" Grid.Row="5" Grid.Column="3"/>
+
+                <Label Text="6" Grid.Row="6" Grid.Column="1" BackgroundColor="Teal"/>
+                <Editor Text="" Grid.Row="6" Grid.Column="2" AutoSize="TextChanges" BackgroundColor="Teal"/>
+                <Label Text="" Grid.Row="6" Grid.Column="3" BackgroundColor="Teal"/>
+
+                <Label Text="7" Grid.Row="7" Grid.Column="1"/>
+                <Label Text="" Grid.Row="7" Grid.Column="2"/>
+                <Label Text="" Grid.Row="7" Grid.Column="3"/>
+            </Grid>
+        </FlexLayout>
+    </ScrollView>
+
+</ContentPage>

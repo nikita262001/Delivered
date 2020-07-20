@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="Prakt12SQLite.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Prakt12SQLite.UWP"
+    RequestedTheme="Light">
+
+</Application>

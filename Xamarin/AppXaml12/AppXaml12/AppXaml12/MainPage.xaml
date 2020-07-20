@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppXaml12.MainPage">
+
+    <ScrollView>
+        <StackLayout BackgroundColor="Green" Margin="50">
+            <Frame x:Name="frameColor" BackgroundColor="Orange" CornerRadius="40" BorderColor="Black">
+                <Label Text="LabelFrame"/>
+            </Frame>
+
+            <Image x:Name="imageXam" Source="qwer.jpg"/>
+
+            <Entry Text="Cursor position set" 
+                   CursorPosition="2"
+                   SelectionLength="3"
+                   Placeholder="Password"
+                   PlaceholderColor="Olive"
+                   MaxLength="10"
+                   CharacterSpacing="10"
+                   IsPassword="True"
+                   Keyboard="Chat"
+                   TextColor="Red"
+                   BackgroundColor="#00FF00"/>
+            <Label TextColor="Green" Text="Label" CharacterSpacing="10" BackgroundColor="#00FFBB"/>
+            <Editor Placeholder="User" PlaceholderColor="Olive" Keyboard="Email" AutoSize="TextChanges"/>
+            <Button x:Name="button" Text="0" Clicked="WorkButton"/>
+            <BoxView x:Name="boxView" CornerRadius="25" BackgroundColor="Black" HeightRequest="100" WidthRequest="100" HorizontalOptions="Center">
+            </BoxView>
+            <Switch x:Name="@switch" OnColor="Orange" ThumbColor="Green" Toggled="WorkSwitch"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

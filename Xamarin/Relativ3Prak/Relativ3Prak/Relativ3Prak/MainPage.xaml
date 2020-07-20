@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Relativ3Prak.MainPage">
+
+    <!--<RelativeLayout> 1 задание
+        <BoxView BackgroundColor="Blue"
+    RelativeLayout.XConstraint = "{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.05}"
+    RelativeLayout.YConstraint = "{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.05}"
+    RelativeLayout.WidthConstraint = "{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.9}"
+    RelativeLayout.HeightConstraint = "{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.9}"/>
+    </RelativeLayout>-->
+
+    <RelativeLayout>
+        <Frame x:Name="frameXam" CornerRadius="20" BackgroundColor="Cyan" BorderColor="Black"
+                RelativeLayout.XConstraint ="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=0.2}"
+                RelativeLayout.YConstraint ="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0.2}">
+            <Entry WidthRequest="100" IsPassword="True"/>
+        </Frame>
+
+        <Image x:Name="imageXam" Source="test.jpg"
+        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
+            ElementName=frameXam,Property=Y,Factor=1,Constant=100}"
+        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
+            ElementName=frameXam,Property=X,Factor=1}"/>
+
+        <Button x:Name="buttonXam" Text="0" IsVisible="false" Clicked="TestButtonXam"
+        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
+            ElementName=frameXam,Property=Y,Factor=1}"
+        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
+            ElementName=frameXam,Property=X,Factor=1,Constant=150 }"/>
+
+        <Switch Toggled="Switch_Toggled"
+        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,
+            ElementName=imageXam,Property=Y,Factor=1}"
+        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,
+            ElementName=imageXam,Property=X,Factor=1,Constant=250}"/>
+
+    </RelativeLayout>
+</ContentPage>
